@@ -1,0 +1,55 @@
+# 忽略大的数据集文件
+第4次实验数据及提交格式/train/
+第4次实验数据及提交格式/val/
+第4次实验数据及提交格式/test/
+
+# 忽略大的模型文件
+第4次实验数据及提交格式/runs/
+*.pt
+*.pth
+*.pkl
+*.h5
+*.hdf5
+
+# 忽略临时文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 环境配置文件
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+*.log
+*.txt
+
+# 缓存文件
+*.cache
+*.pyc
